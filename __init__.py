@@ -1,1 +1,1 @@
-__all__ = ["json_lexicon"]
+__all__ = ["lexical_entry"]
