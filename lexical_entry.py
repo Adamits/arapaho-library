@@ -234,10 +234,10 @@ class JsonLexicon:
     self.log_file.flush()
     self.json_file.write(json.dumps(self.data))
 
-  def update_lexicon():
+  def update_lexicon(self):
     return ""
 
-  def lexicon_keys:
+  def lexicon_keys(self):
     return [ "sound", "senses", "language", "date_modified", "image",
              "gloss", "pos", "parent_lex", "morphology", "derivations",
              "allolexemes", "lex", "date_added", "base_form", "examplefrequency",
