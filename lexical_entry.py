@@ -1,8 +1,3 @@
-from time import strftime
-import pymongo
-import json
-import re
-
 # This class serves to allow me to more easily interface with the json object.
 # Here you can find existing entries, modify, and add new entries
 class LexicalEntry:

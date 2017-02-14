@@ -24,6 +24,9 @@ class MongoLexicon:
 
       return entries_array
 
+  def test(self):
+    print "yo doogo"
+
   def refresh_from_json(self, lexicon_path):
       # Delete current db
       self.db.lexicon.remove()
